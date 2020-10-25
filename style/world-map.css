@@ -1,0 +1,21 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 25%;
+    height: 1250px;
+    width: 1500px;
+    background: wheat;
+}
