@@ -1,5 +1,5 @@
 import characters from '../data/characters.js';
-import { renderCharacters } from '../Utils/render-character.js';
+import { renderCharacters } from '../Utils/render-functions.js';
 import { setInLocalStorage, findById } from '../Utils/fetch.js';
 import { USER } from '../Utils/constant.js';
 // import functions and grab DOM elements
@@ -13,7 +13,8 @@ let userData = {
     name: {},
     id: {},
     gold: {},
-    energy: {}
+    energy: {},
+    attributes: {}
             
 };
 
@@ -48,6 +49,9 @@ button.addEventListener('click', () => {
 
     const userEnergy = characterChecked.energy;
     userData.energy = userEnergy;
+
+    const UserAttributes = characterChecked.attributes;
+    userData.attributes = UserAttributes;
    
     setInLocalStorage(USER, userData);
 

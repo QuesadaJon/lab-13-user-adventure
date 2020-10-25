@@ -19,3 +19,16 @@ main {
     width: 1500px;
     background: wheat;
 }
+.quest-render {
+
+}
+.user-welcome {
+    font-size: xx-large;
+    line-height: 2;
+    padding: 40px
+}
+.quest-information {
+    font-size: xx-large;
+    line-height: 2;
+    padding: 40px;
+}

@@ -60,9 +60,17 @@ footer {
     align-items: center;
 }
 
-inputs {
-    margin-bottom: 15px;
+.inputs {
+    height: 30px;
+    width: 300px;
+    font-size: larger;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center; 
  }
-start-button {
+.start-button {
     margin-top: 15px;
+    height: 40px;
+    width: 100px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
 }

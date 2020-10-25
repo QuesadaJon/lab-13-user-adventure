@@ -3,9 +3,7 @@ export default [
         id:'eldritch knight',
         energy: 20,
         gold: 50,
-        int: 4,
-        wis: 2,
-        str: 2,
+        attributes: [{ Strength: 2 }, { Dexterity: 0 }, { Constitution: 0 }, { Intelligence: 4 }, { Wisdom: 2 }, { Charisma: 0 }],
         img: '../assets/Eldritch-knight.png' 
         
     },
@@ -13,9 +11,7 @@ export default [
         id: 'rogue',
         energy: 15,
         gold: 70,
-        dex: 4,
-        int: 2,
-        cha: 2,
+        attributes: [{ Strength: 0 }, { Dexterity: 4 }, { Constitution: 0 }, { Intelligence: 2 }, { Wisdom: 0 }, { Charisma: 2 }],
         img: '../assets/Rogue.png'
 
     },
@@ -23,9 +19,7 @@ export default [
         id: 'fighter',
         energy: 18,
         gold: 30,
-        str: 4,
-        dex: 2,
-        con: 2,
+        attributes: [{ Strength: 4 }, { Dexterity: 2 }, { Constitution: 2 }, { Intelligence: 0 }, { Wisdom: 0 }, { Charisma: 0 }],
         img: '../assets/Fighter.png'
 
     }
