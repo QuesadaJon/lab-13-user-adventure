@@ -16,15 +16,15 @@ export default [
 
     },
     {
-        id: '003',
+        id: '002',
         title: 'old man',
         description: '"I\'m sure you don\'t remember, but I saved you. I know how you can repay me. It just so happens that I need some errands run. There are three of them in fact. Here is a map of where all of my errands are located."',
         img: '../assets/pixel-master-roshi.png'
     },
     {
-        id: '002',
+        id: '003',
         title: 'rules',
-        description: 'The rules are simple. As long as you have energy you are able to perform activities. Some activities will require you to spend gold. ammount will change depending on what actions you make during the game. Your character is better at some things than others.'
+        description: '"The rules are simple. As long as you have energy you are able to perform activities. Some activities will require you to spend gold. ammount will change depending on what actions you make during the game. Your character is better at some things than others."'
         
     },    
 ];

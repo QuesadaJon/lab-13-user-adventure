@@ -20,10 +20,10 @@ main {
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 3.5%;
-    margin-left: 25%;
-    height: 1250px;
-    width: 1500px;
+    margin-top: 4%;
+    margin-left: 15.5%;
+    height: 750px;
+    width: 1300px;
     background: wheat;
 }
 

@@ -19,17 +19,3 @@ main {
     width: 1300px;
     background: wheat;
 }
-.quest-render {
-    display: flex;
-    flex-direction: row;
-}
-.user-welcome {
-    font-size: 1.4em;
-    line-height: 2;
-    padding: 40px;
-      
-}
-.old-man {
-    display: none;
-
-}
