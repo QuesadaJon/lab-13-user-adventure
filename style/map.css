@@ -18,4 +18,20 @@ main {
     height: 750px;
     width: 1300px;
     background: wheat;
+    background-image: url(../assets/Estengrath-map.jpg);
+    background-size: 1300px, 750px;
+}
+
+forest-button {
+    position: relative;
+    left: 50px;
+}
+
+.bay-button {
+    position: absolute;
+
+}
+
+.city-button {
+    position: absolute;
 }

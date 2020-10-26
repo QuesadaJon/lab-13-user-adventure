@@ -3,6 +3,12 @@ import { USER } from '../Utils/constant.js';
 
 let userData = getFromLocalStorage(USER);
 
+if (!userData) {
+    userData = {
+        name: 'ButtLord'
+    };
+}
+
 export default [
     {
         id: '000',
