@@ -16,41 +16,36 @@ export function renderQuest() {
     const textDisplay = document.createElement('div');
     const oldMan = document.createElement('img');
     const map = document.createElement('img');
-    const forest = document.createElement('button');
-    const bay = document.createElement('button');
-    const city = document.createElement('button');
+
 
     div.classList = 'quest-render';
     textDisplay.classList = 'user-welcome';
     oldMan.classList = 'old-man ';
     map.classList = 'map';
-    forest.classList = 'forest-button';
-    bay.classList = 'bay-button';
-    city.classList = 'city-button';
-
+   
     setTimeout(() => {
         textDisplay.textContent = quest[0].description; 
     }, 1000);
 
     setTimeout(() => {
         textDisplay.textContent = quest[1].description; 
-    }, 5000);
+    }, 9000);
 
     setTimeout(() => {
         textDisplay.textContent = quest[2].description;
         
         oldMan.src = quest[2].img; 
         oldMan.style.display = 'initial';
-    }, 6000);
+    }, 18000);
 
     setTimeout(() => {
         textDisplay.textContent = quest[3].description; 
-    }, 8000);
+    }, 24000);
 
     setTimeout(() => {
         document.location = '../map/index.html';
 
-    }, 9000);
+    }, 28000);
 
 
     div.append(oldMan, textDisplay);
